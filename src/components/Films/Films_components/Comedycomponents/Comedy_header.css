@@ -1,0 +1,36 @@
+.Comedy_header{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.Comedy_header_main{
+  background-color: #fff;
+  width: 1200px;
+  padding: 0px 40px;
+}
+.Comedy_header_conteiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Comedy_header_conteiner_text1{
+  color: #777;
+  cursor: pointer;
+}
+.Comedy_header_conteiner_text1:hover{
+  color: #000;
+}
+.Comedy_header_conteiner_ul{
+  display: flex;
+}
+.Comedy_header_conteiner_li{
+  margin-left: 16px;
+  text-align: -webkit-match-parent;
+  list-style-type: none;
+  color: #777;
+  cursor: pointer;
+}
+.Comedy_header_conteiner_li:hover{
+  color: #000;
+}

@@ -1,0 +1,45 @@
+.Card{
+  padding: 16px;
+  width: 860px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Card:hover{
+  background-color: rgb(238, 237, 237);
+}
+
+.Card_icon{
+  width: 88px;
+  height: 88px;
+}
+.Card_info{
+  margin-left: 24px;
+}
+.Card_rate{
+  margin-left: auto;
+}
+.Card_rate_circle{
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  border: none;
+}
+.Card_info_textone{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.Card_info_texttwo{
+  font-size: 15px;
+  color: #777;
+  margin-top: 6px;
+  color: #000;
+}
+.Card_rate_text{
+  font-size: 15px;
+  color: #777779;
+}

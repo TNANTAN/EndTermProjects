@@ -1,0 +1,9 @@
+.Comedy{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Comedy_main{
+  width: 1280px;
+  background-color: #fff;
+}

@@ -1,0 +1,13 @@
+.Films{
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  top: 60px;
+  padding-top: 120px;
+}
+.Films_main{
+  width: 1280px;
+  background-color: #fff;
+}

@@ -1,0 +1,117 @@
+.Comedy_content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.Comedy_content_main{
+  width: 1280px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.Comedy_content_main_sidebar{
+  height: 100%;
+  width: 260px;
+  
+  
+}
+.Comedy_content_main_sidebar_slider{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.Comedy_content_main_sidebar_ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Comedy_content_main_sidebar_ul_text{
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  margin-right: 7px;
+  font-family: Graphik Kinopoisk LC Web,Tahoma,Arial,Verdana,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 16px;
+  cursor: pointer;
+  color: #333;
+  background: #f2f2f2;
+}
+.Comedy_content_main_sidebar_details{
+  border-bottom: 1px slodi #333;
+  margin-bottom: 5px;
+}
+.Comedy_content_main_sidebar_details_name{
+  padding: 16px 0px;
+  margin-left: 30px;
+}
+.Comedy_content_main_sidebar_details_block{
+  margin-left: 30px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.Comedy_content_main_content{
+  width: 900px;
+  padding: 0px 20px;
+}
+.Comedy_content_main_content_title{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #222;
+  margin-bottom: 40px;
+}
+.Comedy_content_main_content_title_img{
+  width: 24px;
+  height: 25px;
+  margin-left: 6px;
+  margin-right: 2px;
+}
+.Comedy_content_main_content_films{
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+.Comedy_content_main_content_films_block_first{
+  border-bottom: 3px solid #f60;
+}
+.Comedy_content_main_content_films_block{
+  margin-left: 36px;
+  border-bottom: 3px solid #f60;
+}
+.Comedy_content_main_content_films_block_text1{
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 24px;
+}
+.Comedy_content_main_content_films_block_text2{
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+.Comedy_content_main_content_films_slider{
+  left: 0;
+}
+.Comedy_content_main_content_watch_text{
+  color: rgba(0,0,0,.6);
+  font-size: 15px;
+  line-height: 16px;
+}
+.Comedy_content_main_content_watch{
+  display: flex;
+  align-items: center;
+  padding: 24px 20px;
+}
+.Comedy_content_main_content_watch_block{
+  width: 600px;
+  background-color: rgba(34,34,34,.06);
+  margin-left: 15px;
+}
+.Comedy_content_main_content_watch_block_percent{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 15px;
+}

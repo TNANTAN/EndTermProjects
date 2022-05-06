@@ -1,0 +1,62 @@
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding-top: 10px;
+  width: 203px;
+  height: 45px;
+  cursor: pointer;
+}
+.dropbtn svg {
+  position: absolute;
+  left: 7px;
+  top: 14px;
+}
+
+.dropdown {
+  color: aliceblue;
+  position: fixed;
+  display: inline-block;
+  top: 10px;
+  left: 120px;
+  z-index: 100;
+}
+
+.dropdown-content {
+  position: sticky;
+  display: none;
+  margin-top: 3px;
+  text-align: start;
+  background-color: #1f1f1f;
+  width: 240px;
+  border-radius: 0 0 10px 10px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 10px;
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.mainSA1 {
+  height: 40px;
+}
+.dropdown-content a:hover {
+  color: rgba(255, 255, 255, 0.96);
+  background-color: rgb(59, 59, 59);
+}
+.mediaS a:hover {
+  border-radius: 0 0 10px 10px;
+}
